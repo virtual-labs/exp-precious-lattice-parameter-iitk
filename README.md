@@ -20,4 +20,4 @@ Fill a brief description of this experiment here
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Sahil Soni | Student | Computer Science | BU Jhansi | sahilsssoni431@gmail.com
+1 | Sahil Soni | Student | E I | BU Jhansi | sahilsssoni431@gmail.com
