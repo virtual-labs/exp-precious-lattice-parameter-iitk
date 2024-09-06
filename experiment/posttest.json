@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1 Wavelength of Cu Kα is:?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1.5406 Å",
+        "b": "2.5406 Å",
+        "c": "3.5406 Å",
+        "d": "4.5406 Å"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2 X-Rays are_____:?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "deflected by an electric field but not magnetic field",
+        "b": "deflected by magnetic field but not by an electric field",
+        "c": "deflected by both magnetic and electric field",
+        "d": "not deflected by magnetic field or electric field"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +32,58 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3 If the first reflection from a BCC crystal has a Bragg angle of 22.2°, the second reflection will have a θ of?",
+      "answers": {
+        "a": "32.3°",
+        "b": "25.9°",
+        "c": "38.1°",
+        "d": "44.4°"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4 The interplanar spacing of the first reflecting plane (lowest θ) in an FCC crystal?",
+      "answers": {
+        "a": "a√3",
+        "b": "a⁄√3",
+        "c": "a⁄2",
+        "d": "a"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5 The term 'powder diffraction' in XRD refers to the diffraction analysis of?",
+      "answers": {
+        "a": "Individual crystals",
+        "b": "A finely powdered crystalline material",
+        "c": "Amorphous materials",
+        "d": "Liquid samples"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

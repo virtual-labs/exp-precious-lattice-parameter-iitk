@@ -2,12 +2,46 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1 Collimators in XRD are made up of?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Thin quartz tubes",
+        "b": "Thin glass plates",
+        "c": "Thin metal plates",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2 One of the widely used target material for generation of X-ray spectral line is?",
+      "answers": {
+        "a": "Zinc",
+        "b": "Molybdenum",
+        "c": "Xenon",
+        "d": "Manganese"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3 As the atomic number increases, the frequency of X-radiation from a target material?",
+      "answers": {
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Remains the same",
+        "d": "Variable with metal"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +53,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4 As the applied voltage increases, the minimum wavelength of X-radiation from a metal?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Increases",
+        "b": "Decrease",
+        "c": "Remains the same",
+        "d": "Variable with metal"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +66,24 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5 What does the '2θ' value in an XRD plot represent?",
+      "answers": {
+        "a": "The angle of incident X-rays",
+        "b": "The angle between the incident and diffracted X-rays",
+        "c": "The atomic number of the elements in the sample",
+        "d": "The temperature at which the sample is analysed"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
