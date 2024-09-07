@@ -1,9 +1,9 @@
-<img src="figure1.png"><br>
+<img src="images/figure1.png"><br>
 	For a cubic material: 
 d_((h k l))=  a/√(h^2+k^2+l^2 )				(1)
 	d-spacing is measured from Bragg’s law. nλ=2d sin⁡θ		<br>		(2)
 	Precision in measurement of a or d depends on precision in derivation of sin θ.<br>
-<img src="figure2.png"><br>
+<img src="images/figure2.png"><br>
 	Differentiation of the Bragg equation with respect to θ provides us with the same result.
 nλ=2d sin⁡θ <br>			(3)
 	Take partial derivative of the Bragg equation:

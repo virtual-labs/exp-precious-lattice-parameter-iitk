@@ -1,4 +1,4 @@
 From the diffractogram, we will obtain the values of all the parameters, viz., 2θ, θ, θ in radians, sin θ, sin2θ, cos2 θ and calculate the (h k l) planes for each peak and the corresponding values of a in each case. Further, we will plot F(θ) vs a and perform a linear fitting of the data obtained. The line of best fit which will be obtained will be further extrapolated to F(θ) = 0 and the y-intercept will give us the precise lattice parameter for the particular material.<br>
  FCC: The above procedure yields a precise lattice parameter for FCC to be 3.631 Å.<br>
-<img src="figure3.png"><br>
-<img src="figure4.png"><br>
+<img src="images/figure3.png"><br>
+<img src="images/figure4.png"><br>
