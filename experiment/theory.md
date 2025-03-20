@@ -1,6 +1,6 @@
 <img src="images/figure1.png"><br>
 	For a cubic material: 
-d_((h k l))=  a/√(h^2+k^2+l^2 )				(1)
+d<sub>(hkl)</sub>=  a/√(h²+k²+l²)				(1)
 	d-spacing is measured from Bragg’s law. nλ=2d sin⁡θ		<br>		(2)
 	Precision in measurement of a or d depends on precision in derivation of sin θ.<br>
 <img src="images/figure2.png"><br>
