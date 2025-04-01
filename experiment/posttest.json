@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1 Wavelength of Cu Kα is:?",
+      "question": "1) Wavelength of Cu Kα is:?",
       "answers": {
         "a": "1.5406 Å",
         "b": "2.5406 Å",
@@ -10,7 +10,7 @@
         "d": "4.5406 Å"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -19,71 +19,71 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2 X-Rays are_____:?",
+      "question": "2) The Nelson-Riley function is used for :",
       "answers": {
-        "a": "deflected by an electric field but not magnetic field",
-        "b": "deflected by magnetic field but not by an electric field",
-        "c": "deflected by both magnetic and electric field",
-        "d": "not deflected by magnetic field or electric field"
+        "a": "Peak shape analysis",
+        "b": "Correcting systematic errors in lattice parameter determination",
+        "c": "Identifying amorphous phases",
+        "d": "Calculating crystallite size"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3) The precise determination of lattice parameters requires :",
+      "answers": {
+        "a": "Low-resolution diffraction data°",
+        "b": "High-resolution diffraction data and peak fitting techniques",
+        "c": "Ignoring instrumental corrections",
+        "d": "Using only the strongest diffraction peaks"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4) When determining lattice parameters from powder diffraction, which step improves accuracy?",
+      "answers": {
+        "a": "Using a wide range of diffraction angles and applying extrapolation methods",
+        "b": "Using only low-angle peaks for calculations",
+        "c": "Ignoring systematic errors",
+        "d": "Using unindexed peaks in the diffraction pattern"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5) Using a wide range of diffraction angles and applying extrapolation methods?",
+      "answers": {
+        "a": "Sample displacement in the diffractometer",
+        "b": "Instrumental broadening",
+        "c": "Thermal expansion of the sample",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
       "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "3 If the first reflection from a BCC crystal has a Bragg angle of 22.2°, the second reflection will have a θ of?",
-      "answers": {
-        "a": "32.3°",
-        "b": "25.9°",
-        "c": "38.1°",
-        "d": "44.4°"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "4 The interplanar spacing of the first reflecting plane (lowest θ) in an FCC crystal?",
-      "answers": {
-        "a": "a√3",
-        "b": "a⁄√3",
-        "c": "a⁄2",
-        "d": "a"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "5 The term 'powder diffraction' in XRD refers to the diffraction analysis of?",
-      "answers": {
-        "a": "Individual crystals",
-        "b": "A finely powdered crystalline material",
-        "c": "Amorphous materials",
-        "d": "Liquid samples"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
