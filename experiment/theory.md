@@ -13,7 +13,8 @@ Figure 1: X-Ray Diffractogram for an FCC material<br><br>
 -	For a cubic material : <br>
 <img src="images/image_1.png"><br>
 
-Where the d-spacing is measured from Bragg’s law : <img src="images/image_9.png"><br>
+Where the d-spacing is measured from Bragg’s law : <br>
+<img src="images/image_9.png"><br>
 Here, n = 1 which is the first order of diffraction and λ = 1.5406 Å for Cu-K<sub>α</sub> radiation.<br><br>
 
 -	Precision in measurement of a or d depends on precision in derivation of sinθ.<br>
@@ -21,10 +22,10 @@ Here, n = 1 which is the first order of diffraction and λ = 1.5406 Å for Cu-K<
 
 Figure 2: Error in the measurement of sin θ decreases as the value of θ increases<br><br>
 
--	Take partial derivative of the Bragg equation : <br>
+-	Take partial derivative of the Bragg equation : <br><br>
 <img src="images/image_2.png"><br><br>
 
--	For a cubic system : <br>
+-	For a cubic system : <br><br>
 <img src="images/image_4.png"><br><br>
 
 
@@ -32,7 +33,7 @@ Figure 2: Error in the measurement of sin θ decreases as the value of θ increa
 
 -	Values of a will approach the true value as we approach 2θ = 180° (i.e., θ = 90°). We can’t measure a value at 2θ = 180°. We must plot measured values and extrapolate to 2θ = 180° versus some function of θ.<br><br>
 
-<b>Absorption Error :<br><br>
+<b>Absorption Error : </b><br><br>
 
 -	For a cubic crystal with a lattice parameter a, a Nelson-Riley extrapolation function is used :<br>
 <img src="images/image_5.png"><br><br>
