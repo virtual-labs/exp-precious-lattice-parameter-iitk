@@ -14,7 +14,7 @@ Figure 1: X-Ray Diffractogram for an FCC material<br><br>
 <img src="images/image_1.png"><br>
 
 Where the d-spacing is measured from Bragg’s law : <br>
-<img src="images/image_9.png"><br>
+<img src="images/image_test_1.png"><br>
 Here, n = 1 which is the first order of diffraction and λ = 1.5406 Å for Cu-K<sub>α</sub> radiation.<br><br>
 
 -	Precision in measurement of a or d depends on precision in derivation of sinθ.<br>
