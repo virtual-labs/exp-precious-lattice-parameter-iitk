@@ -2,88 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1) Wavelength of Cu Kα is:?",
+      "question": " 1) Which of the following is the most suitable radiation for high-precision lattice parameter measurements? ",
       "answers": {
-        "a": "1.5406 Å",
-        "b": "2.5406 Å",
-        "c": "3.5406 Å",
-        "d": "4.5406 Å"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "2) The Nelson-Riley function is used for :",
-      "answers": {
-        "a": "Peak shape analysis",
-        "b": "Correcting systematic errors in lattice parameter determination",
-        "c": "Identifying amorphous phases",
-        "d": "Calculating crystallite size"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "3) The precise determination of lattice parameters requires :",
-      "answers": {
-        "a": "Low-resolution diffraction data°",
-        "b": "High-resolution diffraction data and peak fitting techniques",
-        "c": "Ignoring instrumental corrections",
-        "d": "Using only the strongest diffraction peaks"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "4) When determining lattice parameters from powder diffraction, which step improves accuracy?",
-      "answers": {
-        "a": "Using a wide range of diffraction angles and applying extrapolation methods",
-        "b": "Using only low-angle peaks for calculations",
-        "c": "Ignoring systematic errors",
-        "d": "Using unindexed peaks in the diffraction pattern"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "5) Using a wide range of diffraction angles and applying extrapolation methods?",
-      "answers": {
-        "a": "Sample displacement in the diffractometer",
-        "b": "Instrumental broadening",
-        "c": "Thermal expansion of the sample",
-        "d": "All of the above"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Cr K<sub>α</sub>",
+        "b": "C0 K<sub>α</sub>",
+        "c": "Cu K<sub>α</sub>",
+        "d": "Mo K<sub>α</sub>"
       },
       "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2) Sample displacement error in a Bragg–Brentano geometry mainly leads to:",
+      "answers": {
+        "a": "Peak shape analysis",
+        "b": "Intensity loss",
+        "c": "Asymmetric peaks",
+        "d": "Systematic peak shift dependent on θ"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3) Which refinement method provides the most accurate lattice parameters from full XRD patterns?",
+      "answers": {
+        "a": "Single-peak fitting",
+        "b": "Williamson–Hall analysis",
+        "c": "Rietveld refinement",
+        "d": "Scherrer analysis"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4) For cubic systems, the lattice parameter is most accurately obtained by:",
+      "answers": {
+        "a": "Using only the (111) peak",
+        "b": "Averaging lattice parameters from all indexed peaks",
+        "c": "Using the lowest-angle peak",
+        "d": "Using uncorrected peak positions"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5) Peak asymmetry at low angles primarily affects lattice parameter determination due to:",
+      "answers": {
+        "a": "Kα₁–Kα₂ splitting",
+        "b": "Axial divergence",
+        "c": "Crystallite size effects",
+        "d": "Counting statistics"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

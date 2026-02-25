@@ -2,71 +2,47 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1) Which mathematical relationship is used to determine lattice parameters from diffraction data?",
+      "question": "1) Which factor most strongly affects the precision of lattice parameter determination in XRD?",
       "answers": {
-        "a": "Scherrer equation",
-        "b": "Bragg’s law",
-        "c": "Lambert-Beer law",
-        "d": "Wien’s displacement law"
-      },
-      "explanations": {
-        "a": "Explanation 1 ",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Sample thickness",
+        "b": "Peak position accuracy",
+        "c": "Peak intensity",
+        "d": "Background noise"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "2) In a powder X-ray diffraction experiment, why is a powdered sample used instead of a single crystal?",
+      "question": "2) The use of high-angle diffraction peaks improves lattice parameter accuracy primarily because:",
       "answers": {
-        "a": "To minimize background noise",
-        "b": "To ensure random orientation of crystallites for all possible diffraction angles",
-        "c": "To increase the penetration depth of X-rays",
-        "d": "To enhance fluorescence effects"
+        "a": "They have higher intensity",
+        "b": "Instrumental broadening is reduced",
+        "c": "Δd/d decreases with increasing θ",
+        "d": "absorption effects are minimized"
       },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3) Which systematic error causes a uniform shift in all diffraction peaks?",
+      "answers": {
+        "a": "Preferred orientation",
+        "b": "Zero shift error",
+        "c": "Crystallite size effect",
+        "d": "Microstrain"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "3) In Bragg's law, : nλ = 2d sin⁡θ,  what does ‘λ’ represent ?",
+      "question": "4) The Nelson–Riley function is used to:",
       "answers": {
-        "a": "The lattice constant of the unit cell",
-        "b": "Distance between atoms in the unit cell",
-        "c": "Interplanar spacing between crystal planes",
-        "d": "The wavelength of the incident X-ray"
+        "a": "Correct peak broadening",
+        "b": "Separate strain and size effects",
+        "c": "Extrapolate lattice parameters to θ = 90°",
+        "d": "Index unknown diffraction peaks"
       },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "4) The most accurate method for determining lattice parameters involves:",
-      "answers": {
-        "a": "Measuring the full-width at half maximum (FWHM) of peaks",
-        "b": "Using high-angle diffraction peaks and extrapolation techniques",
-        "c": "Comparing peak intensities",
-        "d": "Using only low-angle reflections"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
@@ -76,12 +52,6 @@
         "b": "The angle between the incident and diffracted X-rays",
         "c": "The atomic number of the elements in the sample",
         "d": "The temperature at which the sample is analysed"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"

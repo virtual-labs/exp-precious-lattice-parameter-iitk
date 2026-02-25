@@ -36,8 +36,21 @@ Figure 2: Error in the measurement of sin θ decreases as the value of θ increa
 <b>Absorption Error : </b><br><br>
 
 -	For a cubic crystal with a lattice parameter a, a Nelson-Riley extrapolation function is used :<br>
-<img src="images/image_5.png"><br><br>
+<img src="images/img_10.png"><br><br>
 
+<b>Steps:</b><br>
+
+1.	From the diffractogram, we will obtain the values of all the parameters, viz., 2θ, θ, θ in radians, sin θ, sin2θ, cos2 θ <br>
+2.	Calculate the (h k l) planes for each peak using equation (1)<br>
+3.	Calculate the corresponding values of a in each case<br>
+
+<b>Procedure of the experiment: </b><br>
+• For F(θ) vs a and perform a linear fitting of the data obtained.<br> 
+• The line of best fit which will be obtained will be further extrapolated to F(θ) = 0 and the y-intercept will give us the precise lattice parameter for the particular material.<br>
+
+<b>FCC:</b> The above procedure yields a precise lattice parameter for FCC to be 3.631±0.003 Å.<br>
+<img src="images/table_1.png"><br><br>
+<img src="images/graph_1.png"><br><br>
 
 
 
