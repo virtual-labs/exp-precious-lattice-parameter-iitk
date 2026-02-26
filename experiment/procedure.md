@@ -1,4 +1,20 @@
-<b>Steps : </b> <br><br>
+<b>Step 1:</b> Select the preferred language (English or Hindi) from the language selection option.<br>
+
+<b>Step 2:</b> Click on the <i>ON</i> button to switch on the machine.<br>
+
+<b>Step 3:</b> Once the machine is turned on, click on the <i>OFF</i> button to stop the machine if required; otherwise, select the specimen.<br>
+
+<b>Step 4:</b> Click on the <i>OPEN</i> button to open the chamber.<br>
+
+<b>Step 5:</b> Click on the <i>CLOSE</i> button to close the chamber.<br>
+
+<b>Step 6:</b> Click on the <i>STANDBY/ON</i> button and set the required voltage and current.<br>
+
+<b>Step 7:</b> Set the start angle and end angle, then specify the step size and scan rate.<br>
+
+<b>Step 8:</b> Click on the <i>START SCAN</i> button and observe the generated graph and observation table.
+
+<!-- <b>Steps : </b> <br><br>
 
 1.	From the diffractogram, we will obtain the values of all the parameters, viz., 2θ, θ, θ in radians, sin θ, sin<sup>2</sup>θ, cos<sup>2</sup>θ <br>
 2.	Calculate the (h k l) planes for each peak using equation (1)<br>
@@ -9,4 +25,5 @@
 <b>FCC</b> : The above procedure yields a precise lattice parameter for FCC to be 3.631 ± 0.003 Å. <br><br>
 
 <img src="images/image_8.png">
+
 
