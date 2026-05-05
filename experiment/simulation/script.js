@@ -8,12 +8,7 @@ const currentSlider = document.getElementById("current-slider");
 const stepValue = document.getElementById("step-value");
 const timestep = document.getElementById("time-step");
 const startTxt = document.getElementById("start-txt");
-const btnStartUp = document.getElementById("btn-start-up");
-const btnStartDw = document.getElementById("btn-start-dw");
-
 const endTxt = document.getElementById("end-txt");
-const btnEndUp = document.getElementById("btn-end-up");
-const btnEndDw = document.getElementById("btn-end-dw");
 
 const sample = document.getElementById("circle");
 
@@ -268,8 +263,6 @@ const standbyButton = document.getElementById("btn-standby");
 standbyButton.addEventListener("click", function () {
   animateValues();
   standbyButton.disabled = true;
-  btnStartDw.disabled = false;
-  btnStartUp.disabled = false;
   voltageSlider.disabled = false;
   currentSlider.disabled = false;
 
@@ -302,153 +295,22 @@ standbyButton.addEventListener("click", function () {
   setTimeout(function () {
     if (english) {
       textElement.textContent = "";
-      text = " Now Set the Start Angle and End Angle.";
+      text = " Now Click on 'START SCAN' Button.";
       typeWriter(text, textElement);
-      textToSpeech("Now Set the Start Angle and End Angle.", "en-US");
+      textToSpeech("Now Click on 'START SCAN' Button.", "en-US");
     } else if (hindi) {
       textElement.textContent = "";
-      text = "अब प्रारंभ कोण और समाप्ति कोण सेट करें.";
+      text = "अब स्टार्ट स्कैन बटन पर क्लिक करें।";
       typeWriter(text, textElement);
-      textToSpeech("अब प्रारंभ कोण और समाप्ति कोण सेट करें.", "hi-In");
+      textToSpeech("अब स्टार्ट स्कैन बटन पर क्लिक करें।", "hi-In");
     }
+    startAnimationButton.disabled = false;
+    sourceRay.style.display = "block";
+    detectorRay.style.display = "block";
   }, 5000);
 });
 
-// ==== SCAN SETTING ====
 
-let angle = 5;
-
-function updateAngle() {
-  voltageSlider.disabled = true;
-  currentSlider.disabled = true;
-  btnEndDw.disabled = false;
-  btnEndUp.disabled = false;
-
-  startTxt.textContent = angle + "°";
-}
-
-btnStartDw.addEventListener("click", function () {
-  angle += 5;
-
-  const maxAngle = 90;
-
-  if (angle > maxAngle) {
-    angle = maxAngle;
-  }
-
-  updateAngle();
-});
-
-btnStartUp.addEventListener("click", function () {
-  angle -= 5;
-
-  if (angle < 5) {
-    angle = 5;
-  }
-
-  updateAngle();
-  statsend.disabled = false;
-});
-
-let endangle = 80;
-
-function updateEndAngle() {
-  stepValue.disabled = false;
-  endTxt.textContent = endangle + "°";
-}
-
-btnEndUp.addEventListener("click", function () {
-  endangle -= 5;
-
-  if (endangle < 5) {
-    endangle = 5;
-  }
-
-  updateEndAngle();
-});
-
-btnEndDw.addEventListener("click", function () {
-  endangle += 5;
-
-  if (endangle > 160) {
-    endangle = 160;
-  }
-  updateEndAngle();
-  if (english) {
-    textElement.textContent = "";
-    text = "Now input the Step size.";
-    typeWriter(text, textElement);
-    textToSpeech("Now input the Step size.", "en-US");
-  } else if (hindi) {
-    textElement.textContent = "";
-    text = "अब स्टेप साइज इनपुट करें।";
-    typeWriter(text, textElement);
-    textToSpeech("अब स्टेप साइज इनपुट करें।", "hi-In");
-  }
-});
-
-// ==== STEP VALUE ====
-stepValue.addEventListener("change", function () {
-  btnStartDw.disabled = true;
-  btnStartUp.disabled = true;
-  btnEndDw.disabled = true;
-  btnEndUp.disabled = true;
-  stepValue.disabled = true;
-  timestep.disabled = false;
-  sourceRay.style.display = "block";
-  detectorRay.style.display = "block";
-
-  if (english) {
-    textElement.textContent = "";
-    text = "Now input the  Scan Rate.";
-    typeWriter(text, textElement);
-    textToSpeech("Now input the  Scan Rate", "en-US");
-  } else if (hindi) {
-    textElement.textContent = "";
-    text = "अब स्कैन रेट इनपुट करें।";
-    typeWriter(text, textElement);
-    textToSpeech("अब स्कैन रेट इनपुट करें।", "hi-In");
-  }
-});
-
-timestep.addEventListener("change", function () {
-  timestep.disabled = true;
-  startAnimationButton.disabled = false;
-
-  if (english) {
-    textElement.textContent = "";
-    text = "Now Click on 'START SCAN' Button. ";
-    typeWriter(text, textElement);
-    textToSpeech("Now Click on 'START SCAN' Button.", "en-US");
-  } else if (hindi) {
-    textElement.textContent = "";
-    text = "अब स्टार्ट स्कैन बटन पर क्लिक करें।";
-    typeWriter(text, textElement);
-    textToSpeech("अब स्टार्ट स्कैन बटन पर क्लिक करें।", "hi-In");
-  }
-});
-
-const stepValueSelect = document.getElementById("step-value");
-const timeStepSelect = document.getElementById("time-step");
-const scanTimeValue = document.getElementById("scantime-val");
-
-stepValueSelect.addEventListener("change", calculateScanTime);
-timeStepSelect.addEventListener("change", calculateScanTime);
-
-function calculateScanTime() {
-  const startAngle = parseFloat(startTxt.textContent); // Get the start angle
-  const endAngle = parseFloat(endTxt.textContent); // Get the end angle
-  const stepValue = parseFloat(stepValueSelect.value); // Get the step value in degrees per step
-  const timeStep = parseFloat(timeStepSelect.value); // Get the time step in degrees per second
-
-  const numSteps = Math.ceil((endAngle - startAngle) / stepValue);
-
-  const scanTimeSeconds = numSteps / timeStep;
-
-  scanTimeValue.textContent = scanTimeSeconds.toFixed(2) + " seconds";
-}
-
-calculateScanTime();
 
 // ==== SCAN BUTTON ====
 
@@ -474,6 +336,26 @@ startAnimationButton.addEventListener("click", function () {
 
     source.style.animationName = "moveUpDownZeroToDown";
     detector.style.animationName = "oppMoveUpDownZeroToDown";
+    
+    // Dynamically update images based on selected specimen
+    const specimenVal = specimenSelect.value;
+    const graphImg = document.getElementById("graph-img");
+    const tableImg = document.getElementById("table-img");
+    const latticeImg = document.getElementById("lattice-img");
+    const btnSaveDff = document.getElementById("btn-save-dff");
+
+    if (specimenVal === "2") { // Aluminum
+        graphImg.src = "Abhinav/Aluminium/XRD Plot Al.png";
+        tableImg.src = "Abhinav/Aluminium/Table AL.png";
+        latticeImg.src = "Abhinav/Aluminium/Lattice Parameter Al.png";
+        if (btnSaveDff) btnSaveDff.href = "Abhinav/Aluminium/XRD Plot Al.png";
+    } else if (specimenVal === "16") { // Silicon Powder
+        graphImg.src = "Abhinav/Pure Silicon/XRD_plot (1).png";
+        tableImg.src = "Abhinav/Pure Silicon/table.png";
+        latticeImg.src = "Abhinav/Pure Silicon/precise lattice parameter.png";
+        if (btnSaveDff) btnSaveDff.href = "Abhinav/Pure Silicon/XRD_plot (1).png";
+    }
+
     graph.style.display = "block";
     table.style.display = "block";
   }, 5000);
