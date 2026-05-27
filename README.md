@@ -22,5 +22,5 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Sahil Soni | Student | E I | BU Jhansi | sahilsssoni431@gmail.com
 2 | Abhinav | Student | MSE  |  IIT Kanpur | adixit@iitk.ac.in
-3 | Khushboo Singh | Employee | MSE  |  IIT Kanpur | skhushboo@iitk.ac.in
+3 | Khushboo Singh |  | MSE  |  IIT Kanpur | skhushboo@iitk.ac.in
 
