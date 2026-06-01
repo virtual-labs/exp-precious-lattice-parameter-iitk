@@ -1,1 +1,1 @@
-## Determination of Precise Lattice Parameter of FCC and BCC phases using X-ray diffraction
+## Determination of Precise Lattice Parameter of FCC and BCC phases using X-Rays diffraction
