@@ -1,4 +1,4 @@
-Errors in measurement of interplanar spacing d and lattice parameter(s) a using modern diffractometers can occur due to : <br><br>
+Errors in measurement of interplanar spacing <i>d</i> and lattice parameter(s) <i>a</i> using modern diffractometers can occur due to : <br><br>
 -	Misalignment of the instrument<br>
 -	Absorption of X-Rays by the specimen<br>
 -	Displacement of the specimen from the diffractometer axis must be minimized (observational error)<br>
@@ -6,14 +6,14 @@ Errors in measurement of interplanar spacing d and lattice parameter(s) a using 
 -	Use of a flat specimen instead of a curved one to correspond to the diffractometer circle<br><br>
 
 <img src="images/figure1.png"><br>
-Figure 1: X-Ray Diffractogram for an FCC material<br><br>
+Figure 1: X-Rays Diffractogram for an FCC material<br><br>
 
 <b>Observational error :</b><br><br>
 
 -	For a cubic material : <br>
 <img src="images/image_1.png"><br>
 
-Where the d-spacing is measured from Bragg’s law : <br>
+Where the <i>d</i>-spacing is measured from Bragg’s law : <br>
 <img src="images/image_test_1.png"><br>
 Here, n = 1 which is the first order of diffraction and λ = 1.5406 Å for Cu-K<sub>α</sub> radiation.<br><br>
 
