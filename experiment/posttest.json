@@ -55,6 +55,17 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "6) The d-spacing corresponding to the (111) plane of a FCC crystal is 2.08 Å. The lattice parameter is:",
+      "answers": {
+        "a": "2.08 Å ",
+        "b": "3.60 Å ",
+        "c": "3.20 Å ",
+        "d": "4.16 Å"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
