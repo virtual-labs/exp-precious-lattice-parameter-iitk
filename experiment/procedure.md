@@ -1,3 +1,25 @@
+<b>Laboratory Procedure:</b><br><br>
+1. Record the diffraction peak positions (2θ) from the XRD pattern.<br> 
+2. Index the diffraction peaks by assigning the appropriate (h k l) planes corresponding to the FCC or BCC crystal structure. <br>
+3. Calculate the Bragg angle 2θ, θ, θ (in radians), sin θ, 〖sin〗^2 θ, & 〖cos〗^2 θ, and the interplanar spacing d for each reflection using Bragg's law. <br>
+4. Determine the lattice parameter a corresponding to each indexed reflection using the cubic lattice relationship: <br>
+<centre>a=d√(h<sup>2</sup>+k<sup>2</sup>+l<sup>2</sup> )</centre><br>
+
+5. Calculate the Nelson–Riley function F(θ) for each reflection and tabulate all calculated values.<br><br>
+
+<img src="images/img_1.png"><br>
+
+6.	Plot a versus F(θ) and perform linear fitting of the data obtained.<br> 
+7.	Extrapolate the best-fit line to F (θ)=0. The y-intercept of the fitted line corresponds to the precise lattice parameter of the material after minimizing systematic errors.<br><br>
+
+<b>FCC:</b> The below procedure yields a precise lattice parameter for FCC to be 3.631±0.003 Å.<br>
+<img src="images/img_2.png"><br>
+
+<b>BCC:</b>The below procedure yields a precise lattice parameter for FCC to be 3.2583±0.003 Å.<br>
+<img src="images/img_3.png"><br>
+
+
+<b>Simulation Procedure: </b> <br><br>
 <b>Step 1:</b> Select the preferred language (English or Hindi) from the language selection option.<br>
 
 <b>Step 2:</b> Click on the <i>ON</i> button to switch on the machine.<br>

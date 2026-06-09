@@ -55,6 +55,28 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "6) A diffraction peak is observed at 2θ=44.5∘ using Cu-Kα radiation (λ=1.5406 Å). What is the corresponding interplanar spacing d?",
+      "answers": {
+        "a": "1.54 Å",
+        "b": "2.03 Å",
+        "c": "2.50 Å",
+        "d": "3.12 Å"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7) The d-spacing corresponding to the (110) plane of a BCC crystal is 2.03 Å. The lattice parameter is:",
+      "answers": {
+        "a": "2.03 Å ",
+        "b": "2.87 Å ",
+        "c": "3.52 Å ",
+        "d": "4.06 Å"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
