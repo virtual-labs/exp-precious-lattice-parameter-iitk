@@ -1,7 +1,7 @@
 <b>Laboratory Procedure:</b><br><br>
 1. Record the diffraction peak positions (2θ) from the XRD pattern.<br> 
 2. Index the diffraction peaks by assigning the appropriate (h k l) planes corresponding to the FCC or BCC crystal structure. <br>
-3. Calculate the Bragg angle 2θ, θ, θ (in radians), sin θ, 〖sin〗^2 θ, & 〖cos〗^2 θ, and the interplanar spacing d for each reflection using Bragg's law. <br>
+3. Calculate the Bragg angle 2θ, θ, θ (in radians), sin θ, sin<sup>2</sup>θ, & cos<sup>2</sup>θ, and the interplanar spacing d for each reflection using Bragg's law. <br>
 4. Determine the lattice parameter a corresponding to each indexed reflection using the cubic lattice relationship: <br>
 <centre>a=d√(h<sup>2</sup>+k<sup>2</sup>+l<sup>2</sup> )</centre><br>
 
