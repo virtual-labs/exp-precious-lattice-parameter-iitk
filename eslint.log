@@ -1,0 +1,37 @@
+
+/home/runner/work/exp-precious-lattice-parameter-iitk/exp-precious-lattice-parameter-iitk/experiment/simulation/script.js
+    8:7   warning  'stepValue' is assigned a value but never used  no-unused-vars
+    9:7   warning  'timestep' is assigned a value but never used   no-unused-vars
+   10:7   warning  'startTxt' is assigned a value but never used   no-unused-vars
+   11:7   warning  'endTxt' is assigned a value but never used     no-unused-vars
+  116:5   warning  'text' is not defined                           no-undef
+  118:16  warning  'text' is not defined                           no-undef
+  125:5   warning  'text' is not defined                           no-undef
+  127:16  warning  'text' is not defined                           no-undef
+  144:5   warning  'text' is not defined                           no-undef
+  146:16  warning  'text' is not defined                           no-undef
+  153:5   warning  'text' is not defined                           no-undef
+  155:16  warning  'text' is not defined                           no-undef
+  169:7   warning  'text' is not defined                           no-undef
+  170:18  warning  'text' is not defined                           no-undef
+  174:7   warning  'text' is not defined                           no-undef
+  175:18  warning  'text' is not defined                           no-undef
+  197:7   warning  'text' is not defined                           no-undef
+  198:18  warning  'text' is not defined                           no-undef
+  202:7   warning  'text' is not defined                           no-undef
+  203:18  warning  'text' is not defined                           no-undef
+  217:5   warning  'text' is not defined                           no-undef
+  218:16  warning  'text' is not defined                           no-undef
+  222:5   warning  'text' is not defined                           no-undef
+  223:16  warning  'text' is not defined                           no-undef
+  271:5   warning  'text' is not defined                           no-undef
+  272:16  warning  'text' is not defined                           no-undef
+  276:5   warning  'text' is not defined                           no-undef
+  277:16  warning  'text' is not defined                           no-undef
+  298:7   warning  'text' is not defined                           no-undef
+  299:18  warning  'text' is not defined                           no-undef
+  303:7   warning  'text' is not defined                           no-undef
+  304:18  warning  'text' is not defined                           no-undef
+
+✖ 32 problems (0 errors, 32 warnings)
+
