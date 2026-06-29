@@ -55,8 +55,8 @@ In practice, lattice parameters calculated from different diffraction peaks ofte
 
 <b>Steps:</b><br>
 
-1. Obtain the values of 2θ, θ, θ (in radians), sin θ, 〖sin〗^2 θ, & 〖cos〗^2 θ from the diffractogram. <br>
-2. Index the diffraction peaks by assigning the appropriate (h k l) planes. <br>
+1. Obtain the values of 2θ, θ, θ (in radians), sin θ, sin<sup>2</sup> θ, & cos<sup>2</sup> θ from the diffractogram. <br>
+2. Index the diffraction peaks by assigning the appropriate (hkl) planes. <br>
 3. Calculate the corresponding d-spacings using Bragg's law. <br>
 4. Determine the lattice parameter a for each reflection using Eq. (1). <br>
 5. Calculate the Nelson–Riley function F(θ) for each reflection. <br>
