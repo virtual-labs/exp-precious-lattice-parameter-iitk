@@ -2,37 +2,80 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1) Which factor most strongly affects the precision of lattice parameter determination in XRD?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Sample thickness",
+        "b": "Peak position accuracy",
+        "c": "Peak intensity",
+        "d": "Background noise"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2) The use of high-angle diffraction peaks improves lattice parameter accuracy primarily because:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "They have higher intensity",
+        "b": "Instrumental broadening is reduced",
+        "c": "Δd/d decreases with increasing θ",
+        "d": "absorption effects are minimized"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3) Which systematic error causes a uniform shift in all diffraction peaks?",
+      "answers": {
+        "a": "Preferred orientation",
+        "b": "Zero shift error",
+        "c": "Crystallite size effect",
+        "d": "Microstrain"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4) The Nelson–Riley function is used to:",
+      "answers": {
+        "a": "Correct peak broadening",
+        "b": "Separate strain and size effects",
+        "c": "Extrapolate lattice parameters to θ = 90°",
+        "d": "Index unknown diffraction peaks"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5) What does the '2θ' value in an XRD plot represent?",
+      "answers": {
+        "a": "The angle of incident X-rays",
+        "b": "The angle between the incident and diffracted X-rays",
+        "c": "The atomic number of the elements in the sample",
+        "d": "The temperature at which the sample is analysed"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6) A diffraction peak is observed at 2θ=44.5∘ using Cu-Kα radiation (λ=1.5406 Å). What is the corresponding interplanar spacing d?",
+      "answers": {
+        "a": "1.54 Å",
+        "b": "2.03 Å",
+        "c": "2.50 Å",
+        "d": "3.12 Å"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7) The d-spacing corresponding to the (110) plane of a BCC crystal is 2.03 Å. The lattice parameter is:",
+      "answers": {
+        "a": "2.03 Å ",
+        "b": "2.87 Å ",
+        "c": "3.52 Å ",
+        "d": "4.06 Å"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

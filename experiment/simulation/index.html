@@ -1,13 +1,256 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--  Bootstrap CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom-dd-jquery-ui.css">
+    <title>Simulator</title>
+</head>
+
+<body class="body">
+
+
+    <div id="dialogue-box-parent">
+        <div class="dialogue-box">
+            <h1>WELCOME TO THE XRD SIMULATION</h1>
+            <h4 style="color: #11a230; ">
+                Choose the language for instructions
+            </h4>
+            <div style="display: flex;">
+                <button id="english" style="background-color: green;">
+                    ENG
+                </button>
+                <button id="hindi" style="background-color: red;">
+                    HIN
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" instructions">
+        <strong>Instructions : <span id="instructions-text"> </span> </strong>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="card col-sm-12 col-lg-4" id="first-outer-row">
+                <div class="machineOnOffButton">
+                    <button class="onButtob" id="machineOnButton">ON</button>
+                    <button class="offButton" id="machineOffButton">OFF</button>
+                </div>
+                <div id="first-row" class="card">
+                    <div id=" firts-col">
+                        <h4 style="text-decoration: underline; margin-bottom: 13px;">SPECIMEN</h4>
+                        <h5 style="font-weight: 600; font-size: 15px; margin-top: 10px;">SPECIMEN</h5>
+                        <select id="specimen" class="form-select"
+                            style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 13px;"
+                            aria-label="Default select example" disabled="">
+                            <option selected="selected"> specimen </option>
+                            <option value="2">Aluminum (FCC)</option>
+                            <option value="16">Silicon Powder (BCC)</option>
+                        </select>
+
+                        <div id="door" class="specimen">
+                            <h5 style="font-weight: 600; font-size: 15px; margin-top: 10px;">DOORS</h5>
+                            <div>
+                                <button id="openButton" class="button-91 "
+                                    style=" height: 2rem; margin: .2rem; padding: .2rem; width: 4rem;"
+                                    disabled="">OPEN</button>
+                                <button id="closeButton" class="button-91 "
+                                    style=" height: 2rem; margin: .2rem; padding: .2rem; width: 4rem;"
+                                    disabled="">CLOSE</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="first-row" class="card">
+                    <div id="second-col">
+                        <h4 style="text-decoration: underline; margin-bottom: 13px;">X-RAY TUBE</h4>
+                        <div class="second-row">
+                            <div id="standby-div">
+                                <button type="button" id="btn-standby" class="round-btn standby-btn" value="on"
+                                    disabled=""></button>
+                                <label id="standby-label" class="btn-title">STANDBY/ON</label>
+                            </div>
+
+                            <div id="power-div" class="btn-with-title">
+                                <p>FULL POWER</p>
+                                <button type="button" id="btn-power" class="btn btn-active" value="on" disabled=""
+                                    style="cursor: not-allowed;">ON</button>
+                            </div>
+
+                        </div>
+                        <div id="top-stats" class="flex-evenly second-row">
+                            <!-- <div class="slider-container"> -->
+                                <div class="slider-value-container" >
+                                    <label for="voltage-slider" class="slider-label"  style=" font-size: 15px;">Voltage: <span style=" font-size: 15px;" id="voltage-value" class="slider-value">0 kV</span></label>
+                                    <input type="range" id="voltage-slider" min="0" max="100" step="5" value="0" class="slider" disabled="">
+                                </div>
+                        
+                                <div class="slider-value-container">
+                                    <label for="current-slider" class="slider-label"  style=" font-size: 15px;">Current: <span style=" font-size: 15px;" id="current-value" class="slider-value">0 mA</span></label>
+                                    <input type="range" id="current-slider" min="0" max="100" step="5"  value="0" class="slider" disabled="">
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                                      
+                    </div>
+                </div>
+
+                <div id="first-row" class="card">
+                    <h4 style="text-decoration: underline; margin-bottom: 13px;">SCAN SETTING</h4>
+                    <div id="bottom-stats" class="flex-between">
+                        <div id="start-div" class="stats-div">
+                            <label id="start-label" class="btn-title">START ANGLE (2θ)</label>
+                            <div id="stats-start" class="angle flex-evenly">
+                                <div class="stats-name">
+                                    <p id="start-txt" class="stat-title">20°</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="end-div" class="stats-div" disabled="">
+                            <label id="end-label" class="btn-title">END ANGLE (2θ)</label>
+
+                            <div id="stats-end" class="angle flex-evenly">
+                                <div class="stats-name">
+                                    <p id="end-txt" class="stat-title">100°</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="step-options" class="flex-evenly">
+                        <div id="sacn-step">
+                            <div style="font-size: 13px;">STEP SIZE</div>
+                            <input id="step-value" value="0.02" style="width: 100px; border-radius: 5px; text-align: center;"
+                                disabled="" />
+                        </div>
+                        <div id="time-step-div">
+                            <div style="font-size: 13px;">SCAN RATE </div>
+                            <input id="time-step" value="2" style="width: 100px; border-radius: 5px; text-align: center;"
+                                disabled="" />
+                        </div>
+                    </div>
+
+                    <div id="scantime-div" class="btn-with-title">
+                        <div>
+                            <label id="scantime-label" class="btn-title">SCAN TIME</label>
+                            <div id="scantime-value">
+                                <p id="scantime-val" class="stat-title">2400 nano second</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="bottom-row" class="flex-evenly">
+                    <button type="button" id="btn-start-scan" disabled="" class="btn" value="off"
+                        style="cursor: pointer;">START
+                        SCAN</button>
+                        <a href="sampleImage.png" type="button" id="btn-save-dff" class="btn" style="background-color: rgb(199, 196, 191); border: 1px solid rgb(131, 129, 129); padding: 3.7px 5px; color: rgb(100, 99, 99); font-size: 13px; cursor: pointer;" value="off"><i class="fa fa-download" download></i> SAVE
+                            DIFFRACTOGRAM</a>
+                </div>
+
+
+                <div id="fil-current" class="channel-slider"></div>
+
+
+            </div>
+
+
+            <div class="col-sm-12 col-lg-5">
+                <div class="card " id="xrd">
+                    <div id="gate">
+                        <div class="door left-door" id="leftDoor"></div>
+                        <div class="door right-door" id="rightDoor"></div>
+                    </div>
+                    <div>
+                        <div style="position: relative;" class="machine">
+                            <img src="machine2.png" alt="xrd image">
+
+                            <div class="source" id="source" style="position: absolute;">
+                                <img src="source.png" height="80px">
+                            </div>
+                            <div style="position: absolute;" class="detector" id="detector">
+                                <img src="detector.png">
+                            </div>
+                            <div style="position: absolute;" class="source-ray" id="source-ray">
+
+                            </div>
+                            <div style="position: absolute;" id="detector-ray" class="detector-ray">
+
+                            </div>
+                            <div class="circle" style="position: absolute;" id="circle"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="graph" id="graph">
+                    <div id="graph-output">
+                        <img id="graph-img" src="sampleImage.png" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-12 col-lg-3" id="output-sample">
+                <div id="output">
+                    <div id="output1">
+                        <div>
+                            <h5> <strong>INSTRUMENT STATUS</strong></h5>
+                            <p> <b>SHUTTER</b> </p>
+                            <button id="shutter" class="shutter">CLOSED</button>
+
+                        </div>
+                    </div>
+                    <diV class="caution">CAUTION</diV>
+                </div>
+                <div id="outputSample">
+                    <h5 style="text-align: center;"><strong>SAMPLE</strong></h5>
+                    <img class="sample" src="sample.png" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="table" style="display: none; margin-top: 2rem; margin-bottom: 2rem;">
+        <div class="row justify-content-center">
+            <div class="col-12" id="table-image-container" style="display: flex; flex-direction: column; align-items: center; gap: 30px;">
+                <div class="card" style="padding: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2); border-radius: 8px; width: 100%; max-width: 900px; background-color: #f8f9fa;">
+                    <h5 style="text-align: center; margin-bottom: 15px; font-weight: 600; text-decoration: underline; color: #333;">Data Table</h5>
+                    <img id="table-img" src="" alt="Table" style="width: 100%; height: auto; border-radius: 4px; box-shadow: inset 0 0 5px rgba(0,0,0,0.1);">
+                </div>
+                <div class="card" style="padding: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2); border-radius: 8px; width: 100%; max-width: 900px; background-color: #f8f9fa;">
+                    <h5 style="text-align: center; margin-bottom: 15px; font-weight: 600; text-decoration: underline; color: #333;">Lattice Parameter</h5>
+                    <img id="lattice-img" src="" alt="Lattice Parameter" style="width: 100%; height: auto; border-radius: 4px; box-shadow: inset 0 0 5px rgba(0,0,0,0.1);">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- Bootstrap Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
